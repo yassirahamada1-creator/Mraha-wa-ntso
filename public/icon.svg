@@ -1,0 +1,42 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#5B351E"/>
+      <stop offset="65%" stop-color="#331B0E"/>
+      <stop offset="100%" stop-color="#1F1008"/>
+    </radialGradient>
+    <linearGradient id="woodFrame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B97B41"/>
+      <stop offset="50%" stop-color="#8A4E24"/>
+      <stop offset="100%" stop-color="#5B3014"/>
+    </linearGradient>
+    <radialGradient id="seedGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FAF7E8"/>
+      <stop offset="45%" stop-color="#CBD4AE"/>
+      <stop offset="100%" stop-color="#5A6447"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect x="64" y="108" width="384" height="296" rx="44" fill="url(#woodFrame)" stroke="#F2B441" stroke-width="10"/>
+  <rect x="86" y="130" width="340" height="252" rx="30" fill="#4E2914" fill-opacity="0.72"/>
+  <line x1="94" y1="256" x2="418" y2="256" stroke="#F2B441" stroke-width="4" stroke-opacity="0.65" stroke-linecap="round"/>
+  <!-- Top row pits -->
+  <circle cx="136" cy="192" r="34" fill="#2A1409" stroke="#C98E4B" stroke-width="4"/>
+  <rect x="218" y="156" width="76" height="72" rx="16" fill="#2A1409" stroke="#F2B441" stroke-width="6"/>
+  <circle cx="376" cy="192" r="34" fill="#2A1409" stroke="#C98E4B" stroke-width="4"/>
+  <!-- Bottom row pits -->
+  <circle cx="136" cy="320" r="34" fill="#2A1409" stroke="#C98E4B" stroke-width="4"/>
+  <rect x="218" y="284" width="76" height="72" rx="16" fill="#2A1409" stroke="#F2B441" stroke-width="6"/>
+  <circle cx="376" cy="320" r="34" fill="#2A1409" stroke="#C98E4B" stroke-width="4"/>
+  <!-- Tso seeds -->
+  <ellipse cx="126" cy="186" rx="11" ry="9" fill="url(#seedGrad)"/>
+  <ellipse cx="147" cy="198" rx="11" ry="9" fill="url(#seedGrad)"/>
+  <ellipse cx="244" cy="184" rx="12" ry="10" fill="url(#seedGrad)"/>
+  <ellipse cx="268" cy="184" rx="12" ry="10" fill="url(#seedGrad)"/>
+  <ellipse cx="256" cy="204" rx="12" ry="10" fill="url(#seedGrad)"/>
+  <ellipse cx="244" cy="310" rx="12" ry="10" fill="url(#seedGrad)"/>
+  <ellipse cx="268" cy="310" rx="12" ry="10" fill="url(#seedGrad)"/>
+  <ellipse cx="256" cy="330" rx="12" ry="10" fill="url(#seedGrad)"/>
+  <ellipse cx="366" cy="312" rx="11" ry="9" fill="url(#seedGrad)"/>
+  <ellipse cx="386" cy="326" rx="11" ry="9" fill="url(#seedGrad)"/>
+</svg>

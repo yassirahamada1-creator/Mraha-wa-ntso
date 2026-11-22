@@ -1,0 +1,8 @@
+{
+  "name": "Mraha wa Ntso",
+  "description": "Jeu de société traditionnel comorien à 4 rangées — Solo contre l'IA, Duo hors ligne sur le même appareil, Duel en ligne temps réel, classements compétitifs et partage social.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
